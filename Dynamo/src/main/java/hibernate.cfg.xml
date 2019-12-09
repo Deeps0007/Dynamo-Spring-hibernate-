@@ -12,8 +12,8 @@
         <property name="connection.username">system</property>  
         <property name="connection.password">tiger</property>  
         <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>  
-    <mapping class="model.Vendor"/>  
-     <mapping class="model.Vendor_service"/>  
+         <mapping class="model.Vendor"/>  
+         <mapping class="model.Vendor_service"/>  
    
     </session-factory>  
   
