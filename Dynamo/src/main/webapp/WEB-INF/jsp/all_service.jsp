@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+    
     <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
     <%@page isELIgnored="false" %>
 <!DOCTYPE html>
@@ -16,7 +18,7 @@
 <% String user_type=(String)session.getAttribute("type");
 
 if(!user_type.equals("Client"))
-{
+{// user account services
 %>
 <table  border="3">
 <tr><th class="req">ID</th><th>Vendor ID</th><th>Service Type</th><th>Service name</th><th>Visit charge</th><th>Warranty</th><th>Update</th><th>Delete</th></tr>
